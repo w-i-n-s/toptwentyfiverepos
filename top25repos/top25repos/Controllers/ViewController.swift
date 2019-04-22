@@ -97,17 +97,23 @@ class ViewController: UIViewController {
                 }
             }
         }.resume()
-        ///search/repositories?q=tetris+language:assembly&sort=stars&order=desc
     }
 }
 
 extension ViewController: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        guard let text = textField.text, text.isEmpty else { return false }
+        guard let text = textField.text, !text.isEmpty else { return false }
+        
+        repos = []
+        tableView.reloadData()
+        textField.resignFirstResponder()
         
         searchReposFor(text) { (repos) in
-            
+            // FIXME: CopyPaste
+            self.repos = repos
+            self.tableView.reloadData()
         }
+        
         return true
     }
 }
