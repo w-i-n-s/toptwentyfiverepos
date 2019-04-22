@@ -12,6 +12,7 @@
 		2A4619C3226DE27F0091D7E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A4619C1226DE27F0091D7E8 /* Main.storyboard */; };
 		2A4619C5226DE2810091D7E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A4619C4226DE2810091D7E8 /* Assets.xcassets */; };
 		2A4619C8226DE2810091D7E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A4619C6226DE2810091D7E8 /* LaunchScreen.storyboard */; };
+		2A4619D1226DE3070091D7E8 /* task.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2A4619D0226DE3070091D7E8 /* task.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		2A4619C4226DE2810091D7E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A4619C7226DE2810091D7E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A4619C9226DE2810091D7E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A4619D0226DE3070091D7E8 /* task.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = task.txt; sourceTree = "<group>"; };
+		2A4619D2226DE3390091D7E8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +41,7 @@
 		2A4619B1226DE27F0091D7E8 = {
 			isa = PBXGroup;
 			children = (
+				2A4619CF226DE2E00091D7E8 /* Documentation */,
 				2A4619BC226DE27F0091D7E8 /* top25repos */,
 				2A4619BB226DE27F0091D7E8 /* Products */,
 			);
@@ -62,6 +66,15 @@
 				2A4619C9226DE2810091D7E8 /* Info.plist */,
 			);
 			path = top25repos;
+			sourceTree = "<group>";
+		};
+		2A4619CF226DE2E00091D7E8 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				2A4619D2226DE3390091D7E8 /* README.md */,
+				2A4619D0226DE3070091D7E8 /* task.txt */,
+			);
+			path = Documentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A4619C8226DE2810091D7E8 /* LaunchScreen.storyboard in Resources */,
+				2A4619D1226DE3070091D7E8 /* task.txt in Resources */,
 				2A4619C5226DE2810091D7E8 /* Assets.xcassets in Resources */,
 				2A4619C3226DE27F0091D7E8 /* Main.storyboard in Resources */,
 			);
